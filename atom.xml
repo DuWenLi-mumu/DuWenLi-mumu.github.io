@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-22T12:13:09.369Z</updated>
+  <updated>2018-08-23T08:41:23.944Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>木木的日常</title>
+    <link href="http://yoursite.com/2018/08/23/%E6%9C%A8%E6%9C%A8%E7%9A%84%E6%97%A5%E5%B8%B8/"/>
+    <id>http://yoursite.com/2018/08/23/木木的日常/</id>
+    <published>2018-08-23T08:25:16.000Z</published>
+    <updated>2018-08-23T08:41:23.944Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚装系统，噗，不知怎么的，把centos装到U盘里面了，U盘插上就能打开，U盘关了就找不到centos了，只剩下孤零零的Ubuntu。但是还是上不了网。很无奈。</p><p>今早，折腾了一上午，无果，想想还是算了吧，把它拿到修电脑的地方去修好了。我也没办法了，谁叫自己这么菜呢。以后再说吧。</p><p>昨晚搞得3点过才睡，发现哭真的能发泄情绪诶，难过的时候哭出来，过一会儿就不难过了，早上眼睛还是肿肿的。嗨呀，就不要再想啦，好好爱自己，熬过这关就好了。想家，想妈妈。</p><p>还有好多事情还没做。大创，毛概，linux shell，学术研究书，程序员的自我修养。这些都是暑假应该完成的东西，我一样都没有完成。但是，事情总是慢慢来的嘛，一件一件地把事情做好，就好啦！</p><p>木木真傻，傻傻的才会更开心，嗯，那就继续傻下去吧。</p><p>好了，我要开始写毛概了，大创的话，任务布置下来再说吧。</p><p>事情，要一件一件的去完成！</p><p><img src="a.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;昨晚装系统，噗，不知怎么的，把centos装到U盘里面了，U盘插上就能打开，U盘关了就找不到centos了，只剩下孤零零的Ubuntu。但是还是上不了网。很无奈。&lt;/p&gt;
+&lt;p&gt;今早，折腾了一上午，无果，想想还是算了吧，把它拿到修电脑的地方去修好了。我也没办法了，谁叫自己这
+      
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="http://yoursite.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>LeetCode Longest Palindromic Substring题解</title>
