@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-23T11:59:21.161Z</updated>
+  <updated>2018-08-24T10:28:06.616Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数学建模</title>
+    <link href="http://yoursite.com/2018/08/24/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    <id>http://yoursite.com/2018/08/24/数学建模/</id>
+    <published>2018-08-24T02:32:25.000Z</published>
+    <updated>2018-08-24T10:28:06.616Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要：写论文做了什么事情，采用何种方法，解决了什么问题，得到了什么结果。问题1,2,3分开写。忌讳：1.背景说了一大堆。2.用matlab什么函数balabala！</p><p>问题重述：不能简单抄问题。把原来的问题，用自己的话描述，话语倾向于用何种方法解决，有侧重。一定要有！</p><p>做两件事情：1.构建数学模型。2.拟合。</p><p>最小二乘法：处理大批量离散的数据。</p><p>插值：经过所有的数据点，少量数据适用。低次、多元函数。</p><p>拟合：大量数据适用。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;摘要：写论文做了什么事情，采用何种方法，解决了什么问题，得到了什么结果。问题1,2,3分开写。忌讳：1.背景说了一大堆。2.用matlab什么函数balabala！&lt;/p&gt;
+&lt;p&gt;问题重述：不能简单抄问题。把原来的问题，用自己的话描述，话语倾向于用何种方法解决，有侧重。一定
+      
+    
+    </summary>
+    
+    
+      <category term="数学建模" scheme="http://yoursite.com/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>程序静态连接、动态链接</title>
