@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-24T10:28:06.616Z</updated>
+  <updated>2018-08-26T10:48:31.862Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>matlab 常用函数使用及示例</title>
+    <link href="http://yoursite.com/2018/08/26/matlab-%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E4%BD%BF%E7%94%A8%E5%8F%8A%E7%A4%BA%E4%BE%8B/"/>
+    <id>http://yoursite.com/2018/08/26/matlab-常用函数使用及示例/</id>
+    <published>2018-08-26T10:42:55.000Z</published>
+    <updated>2018-08-26T10:48:31.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>注：matlab中所有的表达式都需要写成&lt;=的形式再带入。</p><p>解决线性问题常用函数 linprog</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;注：matlab中所有的表达式都需要写成&amp;lt;=的形式再带入。&lt;/p&gt;
+&lt;p&gt;解决线性问题常用函数 linprog&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>数学建模</title>
