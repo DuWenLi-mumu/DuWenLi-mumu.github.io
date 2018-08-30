@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-30T09:01:41.885Z</updated>
+  <updated>2018-08-30T09:28:01.781Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TensorFlow解决overfitting</title>
+    <link href="http://yoursite.com/2018/08/30/TensorFlow%E8%A7%A3%E5%86%B3overfitting/"/>
+    <id>http://yoursite.com/2018/08/30/TensorFlow解决overfitting/</id>
+    <published>2018-08-30T09:03:03.000Z</published>
+    <updated>2018-08-30T09:28:01.781Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先理解dropout</p><p>对于神经网络单元，按照一定比例的概率将其暂时从网络中丢弃。目的就是为了防止过拟合。</p><p>每次做完dropout，相当于从原始的网络中找到一个更瘦的网络。在每次训练的时候，让一半的特征检测器停止工作，提高网络的泛化能力。</p><p>在向前传导的时候，让某个神经元的激活值以一定的概率p让其停止工作</p><p><img src="a.png" alt=""></p><p>看了那么多，我好像只能看懂这些，等到以后看懂更多的时候再来补充吧！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先理解dropout&lt;/p&gt;
+&lt;p&gt;对于神经网络单元，按照一定比例的概率将其暂时从网络中丢弃。目的就是为了防止过拟合。&lt;/p&gt;
+&lt;p&gt;每次做完dropout，相当于从原始的网络中找到一个更瘦的网络。在每次训练的时候，让一半的特征检测器停止工作，提高网络的泛化能力。&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+  </entry>
   
   <entry>
     <title>TensorFlow 基础</title>
