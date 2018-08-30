@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="TensorFlow," />
 
 
 
@@ -81,16 +81,26 @@
 
 
 
-<meta name="description" content="爱学习的木木">
-<meta property="og:type" content="website">
-<meta property="og:title" content="木木的小屋">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta name="description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
+<meta name="keywords" content="TensorFlow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TensorFlow 基础">
+<meta property="og:url" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="爱学习的木木">
+<meta property="og:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/b.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/c.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/d.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/f.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/g.jpg">
+<meta property="og:updated_time" content="2018-08-30T09:01:41.885Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="木木的小屋">
-<meta name="twitter:description" content="爱学习的木木">
+<meta name="twitter:title" content="TensorFlow 基础">
+<meta name="twitter:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
 
 
 
@@ -120,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/"/>
 
 
 
 
 
-  <title>归档 | 木木的小屋</title>
+  <title>TensorFlow 基础 | 木木的小屋</title>
   
 
 
@@ -145,7 +155,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -249,333 +259,236 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杜文丽">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/mumu.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="木木的小屋">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">TensorFlow 基础</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-30T15:11:17+08:00">
+                2018-08-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 8 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
+             <span id="/2018/08/30/TensorFlow-张量，变量/" class="leancloud_visitors" data-flag-title="TensorFlow 基础">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>浏览
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/30/TensorFlow-张量，变量/" itemprop="url">
+          
+            <div class="post-wordcount">
               
-                <span itemprop="name">TensorFlow 基础</span>
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  688 字
+                </span>
               
-            </a>
-        
-      </h2>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-30T15:11:17+08:00"
-              content="2018-08-30" >
-          08-30
-        </time>
-      </div>
+              
+                <span class="post-meta-divider">|</span>
+              
 
-    </header>
-  </article>
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  3 分钟
+                </span>
+              
+            </div>
+          
 
+          
 
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/26/matlab-常用函数使用及示例/" itemprop="url">
-              
-                <span itemprop="name">matlab 常用函数使用及示例</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-26T18:42:55+08:00"
-              content="2018-08-26" >
-          08-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/24/数学建模/" itemprop="url">
-              
-                <span itemprop="name">数学建模</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-24T10:32:25+08:00"
-              content="2018-08-24" >
-          08-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p>
+<p>TensorFlow.js官网api <a href="https://js.tensorflow.org/api" target="_blank" rel="noopener">https://js.tensorflow.org/api</a></p>
+<p>python的参考文档：<a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank" rel="noopener">https://www.tensorflow.org/api_docs/python/tf</a></p>
+<p>张量：值不可变tf.tensor</p>
+<p>0阶张量为标量</p>
+<p>1阶张量为向量</p>
+<p>2阶张量为矩阵</p>
+<p>3阶张量为体积（暂且这样说吧）</p>
+<p><img src="a.png" alt=""></p>
+<p>变量 ：tf.Variable  用一个张量值来初始化的，可用assign方法给一个存在的变量分配一个新张量，值可变。用于模型训练时候，数据的保存和更新.变量通常贯穿于机器学习模型的整个生命周期中，在 TensorFlow.js 中，即使是在 tf.tidy 里创建，js也不会清理它们；但是，你可以手动调用 dispose。</p>
+<p>有了变量必须还要使用tf.initialize_all_variables()来初始化变量。</p>
+<p><img src="b.png" alt=""></p>
+<p>操作：operations(ops) 操作张量，返回新张量，原张量值不变</p>
+<p>有square，add，sub等，支持嵌套操作</p>
+<p><code>tf.tidy</code> 执行后就会清除所有中间新建的 tensors 来达到释放 GPU 内存，但不会消除内部的返回值。</p>
+<p>模型和层：一个函数及一个模型，给定相应输入得到期望输出</p>
+<p>tf.mode是一个模型，可以是线性模型，有了模型以后就可以往里面添加层</p>
+<p>tf.sequential 一层的输入是下一层的输出，拓扑排序是线性的栈</p>
+<p><img src="c.png" alt=""></p>
+<p>tf.layers.dense 全连接层，添加一个层，即初学的add_layer()函数</p>
+<p>dense(<br>    inputs,<br>    units,<br>    activation=None,<br>    use_bias=True,<br>    kernel_initializer=None,<br>    bias_initializer=tf.zeros_initializer(),<br>    kernel_regularizer=None,<br>    bias_regularizer=None,<br>    activity_regularizer=None,<br>    trainable=True,<br>    name=None,<br>    reuse=None<br>)</p>
+<p>inputs: 输入数据，2维tensor. </p>
+<p>units: 该层的神经单元结点数。</p>
+<p>inputshape：[1,2,3]的shape是(3,);一个二阶的张量[[1,2,3],[4,5,6]]的shape是(2,3);一个三阶的张量[[[1],[2],[3]],[[4],[5],[6]]]的shape是(2,3,1)  </p>
+<p>activation: 激活函数.</p>
+<p>use_bias: Boolean型，是否使用偏置项.  </p>
+<p>kernel_initializer: 卷积核的初始化器. </p>
+<p>bias_initializer: 偏置项的初始化器，默认初始化为0. </p>
+<p>kernel_regularizer: 卷积核化的正则化，可选. </p>
+<p>bias_regularizer: 偏置项的正则化，可选.  </p>
+<p>activity_regularizer: 输出的正则化函数.  </p>
+<p>trainable: Boolean型，表明该层的参数是否参与训练。如果为真则变量加入到图集合中 GraphKeys.TRAINABLE_VARIABLES (see tf.Variable).  </p>
+<p>name: 层的名字. </p>
+<p>reuse: Boolean型, 是否重复使用参数.</p>
+<p>tf.Session相当于一个指针，指针指着什么，就能查看什么或者使哪一个运行起来。</p>
+<p>tf.placeholder 占位符，输入变量暂存的地方。</p>
+<p>tf.feed_dict 字典填充函数，使输入输出变得简单</p>
+<p><img src="d.png" alt=""></p>
+<p>cross_entropy 交叉熵，用来衡量人工神经网络ANN的预测值与实际值的一种方式。</p>
+<p>交叉熵代价函数：<img src="e.jpg" alt=""></p>
+<p><img src="f.jpg" alt=""></p>
+<p><img src="g.jpg" alt=""></p>
+<p>好吧没看懂，总之训练效果比二次代价函数要好。完毕！</p>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/23/程序静态连接、动态链接/" itemprop="url">
-              
-                <span itemprop="name">程序静态连接、动态链接</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-23T18:22:09+08:00"
-              content="2018-08-23" >
-          08-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/23/木木的日常/" itemprop="url">
-              
-                <span itemprop="name">木木的日常</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-23T16:25:16+08:00"
-              content="2018-08-23" >
-          08-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/22/LeetCode-Longest-Palindromic-Substring题解/" itemprop="url">
-              
-                <span itemprop="name">LeetCode Longest Palindromic Substring题解</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-22T20:04:12+08:00"
-              content="2018-08-22" >
-          08-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/22/木木的日常-注册账号/" itemprop="url">
-              
-                <span itemprop="name">木木的日常--注册账号</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-22T17:34:16+08:00"
-              content="2018-08-22" >
-          08-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/08/19/my-first-blog/" itemprop="url">
-              
-                <span itemprop="name">my-first-blog</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-19T19:23:23+08:00"
-              content="2018-08-19" >
-          08-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/TensorFlow/" rel="tag"># TensorFlow</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/26/matlab-常用函数使用及示例/" rel="next" title="matlab 常用函数使用及示例">
+                <i class="fa fa-chevron-left"></i> matlab 常用函数使用及示例
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -583,6 +496,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -858,6 +775,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-26T10:51:11.600Z</updated>
+  <updated>2018-08-30T09:01:41.885Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>TensorFlow 基础</title>
+    <link href="http://yoursite.com/2018/08/30/TensorFlow-%E5%BC%A0%E9%87%8F%EF%BC%8C%E5%8F%98%E9%87%8F/"/>
+    <id>http://yoursite.com/2018/08/30/TensorFlow-张量，变量/</id>
+    <published>2018-08-30T07:11:17.000Z</published>
+    <updated>2018-08-30T09:01:41.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p><p>TensorFlow.js官网api <a href="https://js.tensorflow.org/api" target="_blank" rel="noopener">https://js.tensorflow.org/api</a></p><p>python的参考文档：<a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank" rel="noopener">https://www.tensorflow.org/api_docs/python/tf</a></p><p>张量：值不可变tf.tensor</p><p>0阶张量为标量</p><p>1阶张量为向量</p><p>2阶张量为矩阵</p><p>3阶张量为体积（暂且这样说吧）</p><p><img src="a.png" alt=""></p><p>变量 ：tf.Variable  用一个张量值来初始化的，可用assign方法给一个存在的变量分配一个新张量，值可变。用于模型训练时候，数据的保存和更新.变量通常贯穿于机器学习模型的整个生命周期中，在 TensorFlow.js 中，即使是在 tf.tidy 里创建，js也不会清理它们；但是，你可以手动调用 dispose。</p><p>有了变量必须还要使用tf.initialize_all_variables()来初始化变量。</p><p><img src="b.png" alt=""></p><p>操作：operations(ops) 操作张量，返回新张量，原张量值不变</p><p>有square，add，sub等，支持嵌套操作</p><p><code>tf.tidy</code> 执行后就会清除所有中间新建的 tensors 来达到释放 GPU 内存，但不会消除内部的返回值。</p><p>模型和层：一个函数及一个模型，给定相应输入得到期望输出</p><p>tf.mode是一个模型，可以是线性模型，有了模型以后就可以往里面添加层</p><p>tf.sequential 一层的输入是下一层的输出，拓扑排序是线性的栈</p><p><img src="c.png" alt=""></p><p>tf.layers.dense 全连接层，添加一个层，即初学的add_layer()函数</p><p>dense(<br>    inputs,<br>    units,<br>    activation=None,<br>    use_bias=True,<br>    kernel_initializer=None,<br>    bias_initializer=tf.zeros_initializer(),<br>    kernel_regularizer=None,<br>    bias_regularizer=None,<br>    activity_regularizer=None,<br>    trainable=True,<br>    name=None,<br>    reuse=None<br>)</p><p>inputs: 输入数据，2维tensor. </p><p>units: 该层的神经单元结点数。</p><p>inputshape：[1,2,3]的shape是(3,);一个二阶的张量[[1,2,3],[4,5,6]]的shape是(2,3);一个三阶的张量[[[1],[2],[3]],[[4],[5],[6]]]的shape是(2,3,1)  </p><p>activation: 激活函数.</p><p>use_bias: Boolean型，是否使用偏置项.  </p><p>kernel_initializer: 卷积核的初始化器. </p><p>bias_initializer: 偏置项的初始化器，默认初始化为0. </p><p>kernel_regularizer: 卷积核化的正则化，可选. </p><p>bias_regularizer: 偏置项的正则化，可选.  </p><p>activity_regularizer: 输出的正则化函数.  </p><p>trainable: Boolean型，表明该层的参数是否参与训练。如果为真则变量加入到图集合中 GraphKeys.TRAINABLE_VARIABLES (see tf.Variable).  </p><p>name: 层的名字. </p><p>reuse: Boolean型, 是否重复使用参数.</p><p>tf.Session相当于一个指针，指针指着什么，就能查看什么或者使哪一个运行起来。</p><p>tf.placeholder 占位符，输入变量暂存的地方。</p><p>tf.feed_dict 字典填充函数，使输入输出变得简单</p><p><img src="d.png" alt=""></p><p>cross_entropy 交叉熵，用来衡量人工神经网络ANN的预测值与实际值的一种方式。</p><p>交叉熵代价函数：<img src="e.jpg" alt=""></p><p><img src="f.jpg" alt=""></p><p><img src="g.jpg" alt=""></p><p>好吧没看懂，总之训练效果比二次代价函数要好。完毕！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;原博客链接：&lt;a href=&quot;https://www.jianshu.com/p/d9ab35b56ab8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.jianshu.com/p/d9ab35b56ab8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;T
+      
+    
+    </summary>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+  </entry>
+  
+  <entry>
     <title>matlab 常用函数使用及示例</title>
     <link href="http://yoursite.com/2018/08/26/matlab-%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E4%BD%BF%E7%94%A8%E5%8F%8A%E7%A4%BA%E4%BE%8B/"/>
     <id>http://yoursite.com/2018/08/26/matlab-常用函数使用及示例/</id>
     <published>2018-08-26T10:42:55.000Z</published>
-    <updated>2018-08-26T10:51:11.600Z</updated>
+    <updated>2018-08-26T15:26:13.031Z</updated>
     
-    <content type="html"><![CDATA[<p>注：matlab中所有的表达式都需要写成&lt;=的形式再带入。</p><p>解决线性问题常用函数 linprog  用法</p><p><img src="a.png" alt=""></p><p><img src="b.png" alt=""></p><p><img src="c.png" alt=""></p><p><img src="d.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>注：matlab中所有的表达式都需要写成&lt;=的形式再带入。</p><p>解决线性问题常用函数 linprog  用法</p><p><img src="a.png" alt=""></p><p><img src="b.png" alt=""></p><p><img src="c.png" alt=""></p><p><img src="d.png" alt=""></p><p>结果</p><p><img src="e.png" alt=""></p><p>matlab一维差值 </p>]]></content>
     
     <summary type="html">
     
