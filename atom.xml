@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-30T09:28:01.781Z</updated>
+  <updated>2018-08-30T13:19:22.372Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神经网络基础 --持续更新中</title>
+    <link href="http://yoursite.com/2018/08/30/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    <id>http://yoursite.com/2018/08/30/神经网络基础-持续更新中/</id>
+    <published>2018-08-30T13:18:41.000Z</published>
+    <updated>2018-08-30T13:19:22.372Z</updated>
+    
+    <content type="html"><![CDATA[<p>CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。</p><p>池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。</p><p>Zero Padding补零操作使输出尺寸不变。</p><p>做完池化层之后，数据拍平Flatten层，然后放到全连接层，方便交给分类器进行分类。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。&lt;/p&gt;
+&lt;p&gt;池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。&lt;/p&gt;
+&lt;p&gt;Zero Padding补零操作使输出尺寸不变。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="神经网络" scheme="http://yoursite.com/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>TensorFlow解决overfitting</title>
