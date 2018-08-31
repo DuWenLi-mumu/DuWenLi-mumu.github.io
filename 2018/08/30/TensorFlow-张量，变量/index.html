@@ -81,13 +81,13 @@
 
 
 
-<meta name="description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
+<meta name="description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
 <meta name="keywords" content="TensorFlow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TensorFlow 基础">
 <meta property="og:url" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
+<meta property="og:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/b.png">
@@ -96,10 +96,11 @@
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/f.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/g.jpg">
-<meta property="og:updated_time" content="2018-08-30T09:01:41.885Z">
+<meta property="og:image" content="c:/Users/18749/AppData/Local/Temp/1535707394705.png">
+<meta property="og:updated_time" content="2018-08-31T09:36:34.016Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TensorFlow 基础">
-<meta name="twitter:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf 张量：值不可变tf.tensor 0阶张量为标量 1阶张量为向量 2阶张量为矩阵 3阶张量为体积">
+<meta name="twitter:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
 <meta name="twitter:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
 
 
@@ -350,7 +351,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  688 字
+                  796 字
                 </span>
               
 
@@ -390,6 +391,7 @@
         <p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p>
 <p>TensorFlow.js官网api <a href="https://js.tensorflow.org/api" target="_blank" rel="noopener">https://js.tensorflow.org/api</a></p>
 <p>python的参考文档：<a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank" rel="noopener">https://www.tensorflow.org/api_docs/python/tf</a></p>
+<p>TensorFlow.js例子<a href="https://js.tensorflow.org/tutorials/fit-curve.html" target="_blank" rel="noopener">https://js.tensorflow.org/tutorials/fit-curve.html</a></p>
 <p>张量：值不可变tf.tensor</p>
 <p>0阶张量为标量</p>
 <p>1阶张量为向量</p>
@@ -430,6 +432,17 @@
 <p><img src="f.jpg" alt=""></p>
 <p><img src="g.jpg" alt=""></p>
 <p>好吧没看懂，总之训练效果比二次代价函数要好。完毕！</p>
+<p>as for training model, we need to do three things first</p>
+<ul>
+<li><p>A <em>loss function</em>, which measures how well a given polynomial fits the data. The lower the loss value, the better the polynomial fits the data.</p>
+</li>
+<li><p>An <em>optimizer</em>, which implements an algorithm for revising our coefficient values based on the output of the loss function. The optimizer’s goal is to minimize the output value of the loss function.</p>
+</li>
+<li><p>A <em>training loop</em>, which will iteratively run the optimizer to minimize loss.</p>
+</li>
+</ul>
+<p>  minimize最神奇的地方，自动调整参数诶，哇哦</p>
+<p><img src="C:\Users\18749\AppData\Local\Temp\1535707394705.png" alt="1535707394705"></p>
 
       
     </div>
