@@ -81,25 +81,28 @@
 
 
 
-<meta name="description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
+<meta name="description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology 卷积神经网络的介绍：https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-ne">
 <meta name="keywords" content="神经网络,机器学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="机器学习，神经网络基础 --持续更新中">
 <meta property="og:url" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
+<meta property="og:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology 卷积神经网络的介绍：https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-ne">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/f.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/g.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/h.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/a.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/b.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/c.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/b.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/c.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/d,jpg">
-<meta property="og:updated_time" content="2018-09-01T06:25:26.214Z">
+<meta property="og:updated_time" content="2018-09-01T08:04:11.659Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="机器学习，神经网络基础 --持续更新中">
-<meta name="twitter:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
-<meta name="twitter:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/a.png">
+<meta name="twitter:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology 卷积神经网络的介绍：https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-ne">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/f.png">
 
 
 
@@ -349,7 +352,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,056 字
+                  1,159 字
                 </span>
               
 
@@ -387,6 +390,19 @@
 
       
         <p>机器学习术语：<a href="https://developers.google.com/machine-learning/crash-course/framing/ml-terminology" target="_blank" rel="noopener">https://developers.google.com/machine-learning/crash-course/framing/ml-terminology</a></p>
+<p>卷积神经网络的介绍：<a href="https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks" target="_blank" rel="noopener">https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-networks</a></p>
+<p><strong><em>卷积的定义包含两个参数</em></strong></p>
+<ul>
+<li><strong>Size of the tiles that are extracted</strong> (typically 3x3 or 5x5 pixels).</li>
+<li><strong>The depth of the output feature map</strong>, which corresponds to the number of filters that are applied.</li>
+</ul>
+<p><img src="f.png" alt=""></p>
+<p><img src="g.png" alt=""></p>
+<p>1.卷积的特征提取。</p>
+<p>2.ReLU</p>
+<p>3.Pooling</p>
+<p>4.Fully Connected Layers</p>
+<p><img src="h.png" alt=""></p>
 <p>CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。</p>
 <p>池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。</p>
 <p>Zero Padding补零操作使输出尺寸不变。</p>
@@ -407,7 +423,7 @@
 </ul>
 <p>epoch：一个epoch指代所有的数据送入网络中完成一次前向计算及反向传播的过程</p>
 <p>batch size ：所谓Batch就是每次送入网络中训练的一部分数据，而Batch Size就是每个batch中训练样本的数量</p>
-<p>shuffle: 在做机器学习的任务时，需要在运行模型之前将特征转化成词id再转化成模型可识别的二进制文件形式，其中转化成的词id文件最好进行shuffle，打乱各行数据，这样参数能不易陷入局部最优，模型能够更容易达到收敛。</p>
+<p>shuffle（洗牌）: 在做机器学习的任务时，需要在运行模型之前将特征转化成词id再转化成模型可识别的二进制文件形式，其中转化成的词id文件最好进行shuffle，打乱各行数据，这样参数能不易陷入局部最优，模型能够更容易达到收敛。</p>
 <p>正则化：避免过拟合，wccccc好吧 吴恩达老师讲过，我又忘记了，嘤嘤嘤。在保持有所有特征的前提下，减少特征的权重，也就是λ。嘿嘿，在特征多的时候效果很好哦。</p>
 <p>引入惩罚项。下面的min是需要优化的误差值</p>
 <p><img src="b.jpg" alt=""></p>
@@ -435,6 +451,8 @@
 <li>一组偏差，每个节点一个偏差。</li>
 <li>一个激活函数，对层中每个节点的输出进行转换。不同的层可能拥有不同的激活函数。</li>
 </ul>
+<p>训练神经网络的最佳做法</p>
+<p><a href="https://developers.google.com/machine-learning/crash-course/training-neural-networks/best-practices" target="_blank" rel="noopener">https://developers.google.com/machine-learning/crash-course/training-neural-networks/best-practices</a></p>
 
       
     </div>
