@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="神经网络," />
+  <meta name="keywords" content="神经网络,机器学习," />
 
 
 
@@ -81,20 +81,25 @@
 
 
 
-<meta name="description" content="CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作使输出尺寸不变。 做完池化层之后，数据拍平Flatten层，然后放到全连接层，方便交给分类器进行分类。。。 机器学习术语：https://developers.google.com">
-<meta name="keywords" content="神经网络">
+<meta name="description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
+<meta name="keywords" content="神经网络,机器学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="机器学习，神经网络基础 --持续更新中">
 <meta property="og:url" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作使输出尺寸不变。 做完池化层之后，数据拍平Flatten层，然后放到全连接层，方便交给分类器进行分类。。。 机器学习术语：https://developers.google.com">
+<meta property="og:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="c:/Users/18749/AppData/Local/Temp/1535708482344.png">
-<meta property="og:updated_time" content="2018-08-31T09:46:30.734Z">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/a.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/b.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/c.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/b.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/c.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/d,jpg">
+<meta property="og:updated_time" content="2018-09-01T06:25:26.214Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="机器学习，神经网络基础 --持续更新中">
-<meta name="twitter:description" content="CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作使输出尺寸不变。 做完池化层之后，数据拍平Flatten层，然后放到全连接层，方便交给分类器进行分类。。。 机器学习术语：https://developers.google.com">
-<meta name="twitter:image" content="c:/Users/18749/AppData/Local/Temp/1535708482344.png">
+<meta name="twitter:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。 池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。 Zero Padding补零操作">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/a.png">
 
 
 
@@ -344,7 +349,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  302 字
+                  1,056 字
                 </span>
               
 
@@ -360,7 +365,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  4 分钟
                 </span>
               
             </div>
@@ -381,15 +386,15 @@
       
 
       
-        <p>CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。</p>
+        <p>机器学习术语：<a href="https://developers.google.com/machine-learning/crash-course/framing/ml-terminology" target="_blank" rel="noopener">https://developers.google.com/machine-learning/crash-course/framing/ml-terminology</a></p>
+<p>CNN: 卷积输入向量 通过卷积核进行一定的运算（也叫做滤波器）进行输入的特征提取。</p>
 <p>池化层：不影响质量的前提下进行压缩，减少参数，有maxPooling,AveragePooling。</p>
 <p>Zero Padding补零操作使输出尺寸不变。</p>
 <p>做完池化层之后，数据拍平Flatten层，然后放到全连接层，方便交给分类器进行分类。。。</p>
-<p>机器学习术语：<a href="https://developers.google.com/machine-learning/crash-course/framing/ml-terminology" target="_blank" rel="noopener">https://developers.google.com/machine-learning/crash-course/framing/ml-terminology</a></p>
 <p>平方损失（L2）损失</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">= the square of the difference between the label and the prediction</span><br><span class="line">= (observation - prediction(x))2</span><br><span class="line">= (y - y&apos;)2</span><br></pre></td></tr></table></figure>
 <p><strong>均方误差</strong> (<strong>MSE</strong>) 指的是每个样本的平均平方损失。要计算 MSE，请求出各个样本的所有平方损失之和，然后除以样本数量：</p>
-<p><img src="C:\Users\18749\AppData\Local\Temp\1535708482344.png" alt="1535708482344"></p>
+<p><img src="a.png" alt=""></p>
 <p>其中</p>
 <ul>
 <li>x 指的是模型进行预测时使用的特征集（例如，温度、年龄和交配成功率）。</li>
@@ -400,7 +405,36 @@
 <li>D 指的是包含多个有标签样本（即 (x,y)）的数据集。</li>
 <li>N 指的是 D 中的样本数量</li>
 </ul>
-<p>降低损失的方法</p>
+<p>epoch：一个epoch指代所有的数据送入网络中完成一次前向计算及反向传播的过程</p>
+<p>batch size ：所谓Batch就是每次送入网络中训练的一部分数据，而Batch Size就是每个batch中训练样本的数量</p>
+<p>shuffle: 在做机器学习的任务时，需要在运行模型之前将特征转化成词id再转化成模型可识别的二进制文件形式，其中转化成的词id文件最好进行shuffle，打乱各行数据，这样参数能不易陷入局部最优，模型能够更容易达到收敛。</p>
+<p>正则化：避免过拟合，wccccc好吧 吴恩达老师讲过，我又忘记了，嘤嘤嘤。在保持有所有特征的前提下，减少特征的权重，也就是λ。嘿嘿，在特征多的时候效果很好哦。</p>
+<p>引入惩罚项。下面的min是需要优化的误差值</p>
+<p><img src="b.jpg" alt=""></p>
+<p><img src="c.jpg" alt=""></p>
+<p><img src="b.png" alt=""></p>
+<p><img src="c.jpg" alt=""></p>
+<p><img src="d,jpg" alt=""></p>
+<p><strong>正则化项</strong>（complexity），用于衡量模型复杂度</p>
+<p>λ是正则化率。λ越大，权值越小，易出现欠拟合。λ越小，权值越大，易出现过拟合</p>
+<p>嘤嘤嘤，我终于懂了，妈妈的，嘤嘤嘤</p>
+<p>这篇博客的正则化讲的很详细了<a href="https://www.cnblogs.com/jianxinzhou/p/4083921.html" target="_blank" rel="noopener">https://www.cnblogs.com/jianxinzhou/p/4083921.html</a></p>
+<p>妈的，老是记不住线性回归和逻辑回归</p>
+<p>在此重申：</p>
+<p>线性回归：按照权重和结点值加起来 连续，预测</p>
+<p>逻辑回归：在线性回归基础上加了sigmod函数 分类问题，不连续</p>
+<p><strong>范数</strong></p>
+<p> L0范数是指向量中非0的元素的个数</p>
+<p> L1范数是指向量中各个元素绝对值之和，也有个美称叫“稀疏规则算子”（Lasso regularization）。L1范数是L0范数的最优凸近似</p>
+<p> L2范数是指向量各元素的平方和然后求平方根。我们让L2范数的规则项||W||2最小，可以使得W的每个元素都很小，都接近于0，但与L1范数不同，它不会让它等于0，而是接近于0，这里是有很大的区别的哦。而越小的参数说明模型越简单，越简单的模型则越不容易产生过拟合现象</p>
+<p><strong>稀疏矩阵，稠密矩阵</strong>：在矩阵中，如果数值为0的元素数目远远多于非0元素的数目，并且非0元素分布无规律时，则称该矩阵为稀疏矩阵；与之相反，若非0元素数目占大多数时，则称该矩阵为稠密矩阵。</p>
+<p><strong>“神经网络”的所有标准组件：</strong></p>
+<ul>
+<li>一组节点，类似于神经元，位于层中。</li>
+<li>一组权重，表示每个神经网络层与其下方的层之间的关系。下方的层可能是另一个神经网络层，也可能是其他类型的层。</li>
+<li>一组偏差，每个节点一个偏差。</li>
+<li>一个激活函数，对层中每个节点的输出进行转换。不同的层可能拥有不同的激活函数。</li>
+</ul>
 
       
     </div>
@@ -419,6 +453,8 @@
         <div class="post-tags">
           
             <a href="/tags/神经网络/" rel="tag"># 神经网络</a>
+          
+            <a href="/tags/机器学习/" rel="tag"># 机器学习</a>
           
         </div>
       
@@ -524,7 +560,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
