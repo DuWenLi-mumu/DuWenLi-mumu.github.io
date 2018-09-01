@@ -81,14 +81,15 @@
 
 
 
-<meta name="description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
+<meta name="description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
 <meta name="keywords" content="TensorFlow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TensorFlow 基础">
 <meta property="og:url" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
+<meta property="og:description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/b.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/c.png">
@@ -97,11 +98,11 @@
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/f.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/g.jpg">
 <meta property="og:image" content="c:/Users/18749/AppData/Local/Temp/1535707394705.png">
-<meta property="og:updated_time" content="2018-09-01T06:24:34.414Z">
+<meta property="og:updated_time" content="2018-09-01T13:43:36.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TensorFlow 基础">
-<meta name="twitter:description" content="原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/tutoria">
-<meta name="twitter:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
+<meta name="twitter:description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.png">
 
 
 
@@ -351,7 +352,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  810 字
+                  917 字
                 </span>
               
 
@@ -367,7 +368,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3 分钟
+                  4 分钟
                 </span>
               
             </div>
@@ -388,11 +389,22 @@
       
 
       
-        <p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p>
+        <p><strong><em>参考资料：</em></strong></p>
+<p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p>
 <p>TensorFlow.js官网api <a href="https://js.tensorflow.org/api" target="_blank" rel="noopener">https://js.tensorflow.org/api</a></p>
 <p>python的参考文档：<a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank" rel="noopener">https://www.tensorflow.org/api_docs/python/tf</a></p>
 <p>TensorFlow.js例子<a href="https://js.tensorflow.org/tutorials/fit-curve.html" target="_blank" rel="noopener">https://js.tensorflow.org/tutorials/fit-curve.html</a></p>
 <p>TensorFlow各种激活函数：<a href="https://www.tensorflow.org/api_guides/python/nn" target="_blank" rel="noopener">https://www.tensorflow.org/api_guides/python/nn</a></p>
+<p>TensorFlow的游乐场 <a href="http://playground.tensorflow.org" target="_blank" rel="noopener">http://playground.tensorflow.org</a></p>
+<p>python绘图matplotlib  <a href="https://matplotlib.org" target="_blank" rel="noopener">https://matplotlib.org</a></p>
+<p><strong><em>TensorFlow程序的流程</em></strong></p>
+<p>1.定义算法的<strong>计算图（graph）</strong>结构</p>
+<p>2.使用<strong>会话（session）</strong>执行计算</p>
+<p>TensorFlow中图：节点（operation），边：Tensor</p>
+<p>会话：（session）运行静态图的某一个部分，启动图的一部分</p>
+<p><img src="e.png" alt=""></p>
+<p><strong><em>基础知识：</em></strong></p>
+<p>每个TF都有一个默认的图</p>
 <p>张量：值不可变tf.tensor</p>
 <p>0阶张量为标量</p>
 <p>1阶张量为向量</p>
@@ -444,6 +456,8 @@
 </ul>
 <p>  minimize最神奇的地方，自动调整参数诶，哇哦</p>
 <p><img src="C:\Users\18749\AppData\Local\Temp\1535707394705.png" alt="1535707394705"></p>
+<p>TensorBoard读取并展示日志</p>
+<p>tensorboard –logdir = 日志所在路径</p>
 
       
     </div>
