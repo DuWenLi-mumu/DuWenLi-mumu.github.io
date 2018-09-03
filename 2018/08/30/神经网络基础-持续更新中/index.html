@@ -101,7 +101,10 @@
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/d.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/i.png">
 <meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/j.png">
-<meta property="og:updated_time" content="2018-09-02T05:54:02.089Z">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/k.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/l.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/30/神经网络基础-持续更新中/m.jpg">
+<meta property="og:updated_time" content="2018-09-03T00:51:08.185Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="机器学习，神经网络基础 --持续更新中">
 <meta name="twitter:description" content="机器学习术语：https://developers.google.com/machine-learning/crash-course/framing/ml-terminology 卷积神经网络的介绍：https://developers.google.com/machine-learning/practica/image-classification/convolutional-neural-ne">
@@ -321,6 +324,17 @@
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2018/08/30/神经网络基础-持续更新中/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/08/30/神经网络基础-持续更新中/" itemprop="commentsCount"></span>
+                </a>
+              
+            
           
 
           
@@ -355,7 +369,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,463 字
+                  1,757 字
                 </span>
               
 
@@ -371,7 +385,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  5 分钟
+                  7 分钟
                 </span>
               
             </div>
@@ -473,6 +487,9 @@
 <p>下图是两个filter</p>
 <p><img src="j.png" alt=""></p>
 <p>one_hot独热码，编码形式。encodeing<br>0,1,2,3,4,5,6,7,8,9 十位数字 用一种独特的形式表示<br>0:1000000000   1:0100000000  2:0010000000  以此类推</p>
+<p>交叉熵：cross_entropy：另一种计算误差的方法，比二次代价函数<img src="k.png" alt="">计算误差要好。误差表达式：<img src="l.png" alt="">!,对w求偏导得到表达式<img src="m.jpg" alt="">误差越大，梯度就越大，参数w调整得越快，训练速度也就越快</p>
+<p>adam优化器：原博客解释 <a href="https://www.cnblogs.com/xinchrome/p/4964930.html" target="_blank" rel="noopener">https://www.cnblogs.com/xinchrome/p/4964930.html</a> （讲的还行，勉强理解了）Adam 这个名字来源于 adaptive moment estimation，自适应矩估计。概率论中矩的含义是：如果一个随机变量 X 服从某个分布，X 的一阶矩是 E(X)，也就是样本平均值，X 的二阶矩就是 E(X^2)，也就是样本平方的平均值。</p>
+<p>Adam 算法根据损失函数对每个参数的梯度的一阶矩估计和二阶矩估计动态调整针对于每个参数的学习速率。Adam 也是基于梯度下降的方法，但是每次迭代参数的学习步长都有一个确定的范围，不会因为很大的梯度导致很大的学习步长，参数的值比较稳定。it does not require stationary objective, works with sparse gradients, naturally performs a form of step size annealing。</p>
 
       
     </div>
@@ -515,6 +532,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/09/03/TensorFlow图形生成、保存、查看/" rel="prev" title="TensorFlow图形生成、保存、查看">
+                TensorFlow图形生成、保存、查看 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -541,6 +562,11 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
 
   
 
@@ -585,7 +611,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -856,6 +882,21 @@
 
 
 
+
+  
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cytNyrbdg';
+      var conf = 'prod_d4252d4455dcb046016a589510deaff3';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  
 
 
 
