@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-03T02:44:21.265Z</updated>
+  <updated>2018-09-03T06:37:20.869Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,19 @@
     <link href="http://yoursite.com/2018/09/03/TensorFlow%E5%9B%BE%E5%BD%A2%E7%94%9F%E6%88%90%E3%80%81%E4%BF%9D%E5%AD%98%E3%80%81%E6%9F%A5%E7%9C%8B/"/>
     <id>http://yoursite.com/2018/09/03/TensorFlow图形生成、保存、查看/</id>
     <published>2018-09-03T02:44:21.000Z</published>
-    <updated>2018-09-03T02:44:21.265Z</updated>
+    <updated>2018-09-03T06:37:20.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先定义保存路径</p><p>path = “./log”   #在项目中创建了一个叫log的文件夹</p><p>writer = tf.summary.FileWriter(path,sess.graph)</p><p>在当前项目文件夹下打开bash，运行代码  tensorboard –logdir=log</p><p>会在指定文件夹下生成如下文件</p><p><img src="a.png" alt=""></p><p>然后打开指定命令行下的网址就可以看到生成的图像。</p><p><img src="b.png" alt=""></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先定义保存路径&lt;/p&gt;
+&lt;p&gt;path = “./log”   #在项目中创建了一个叫log的文件夹&lt;/p&gt;
+&lt;p&gt;writer = tf.summary.FileWriter(path,sess.graph)&lt;/p&gt;
+&lt;p&gt;在当前项目文件夹下打开bash，运行代码  t
+      
     
     </summary>
     

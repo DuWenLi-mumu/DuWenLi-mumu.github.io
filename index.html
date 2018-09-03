@@ -349,7 +349,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0 字
+                  88 字
                 </span>
               
 
@@ -388,7 +388,15 @@
       
         
           
-          
+          首先定义保存路径
+path = “./log”   #在项目中创建了一个叫log的文件夹
+writer = tf.summary.FileWriter(path,sess.graph)
+在当前项目文件夹下打开bash，运行代码  tensorboard –logdir=log
+会在指定文件夹下生成如下文件
+
+然后打开指定命令行下的网址就可以看到生成的图像。
+
+
           
           <!--noindex-->
           <div class="post-button text-center">
