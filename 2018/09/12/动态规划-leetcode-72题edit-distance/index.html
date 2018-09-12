@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="TensorFlow," />
+  <meta name="keywords" content="leetcode," />
 
 
 
@@ -81,28 +81,18 @@
 
 
 
-<meta name="description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
-<meta name="keywords" content="TensorFlow">
+<meta name="description" content="一直分不清楚动态规划和贪心，今天好好啃一啃 贪心：Ai –&amp;gt; Ai+1 动归：A0,A1,A2….Ai –&amp;gt;Ai+1 判断问题的子结构，具有最优子结构时，动归适用 嘤 贪心的复杂度明显低于动归 在最长子序列中（不一定连续），贪心思路 最开始，缓冲区里为空； 看到了字符“1”，添加到缓冲区的最后，即缓冲区中是“1”； 看到了字符“4”，“4”比缓冲区的所有字符都大，因此将“4”添加到缓冲">
+<meta name="keywords" content="leetcode">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TensorFlow 基础">
-<meta property="og:url" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/index.html">
+<meta property="og:title" content="动态规划 leetcode 72题edit distance">
+<meta property="og:url" content="http://yoursite.com/2018/09/12/动态规划-leetcode-72题edit-distance/index.html">
 <meta property="og:site_name" content="木木的小屋">
-<meta property="og:description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
+<meta property="og:description" content="一直分不清楚动态规划和贪心，今天好好啃一啃 贪心：Ai –&amp;gt; Ai+1 动归：A0,A1,A2….Ai –&amp;gt;Ai+1 判断问题的子结构，具有最优子结构时，动归适用 嘤 贪心的复杂度明显低于动归 在最长子序列中（不一定连续），贪心思路 最开始，缓冲区里为空； 看到了字符“1”，添加到缓冲区的最后，即缓冲区中是“1”； 看到了字符“4”，“4”比缓冲区的所有字符都大，因此将“4”添加到缓冲">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/a.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/b.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/c.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/d.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/f.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/g.jpg">
-<meta property="og:image" content="c:/Users/18749/AppData/Local/Temp/1535707394705.png">
-<meta property="og:updated_time" content="2018-09-03T09:52:26.317Z">
+<meta property="og:updated_time" content="2018-09-12T16:11:06.766Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TensorFlow 基础">
-<meta name="twitter:description" content="参考资料： 原博客链接：https://www.jianshu.com/p/d9ab35b56ab8 TensorFlow.js官网api https://js.tensorflow.org/api python的参考文档：https://www.tensorflow.org/api_docs/python/tf TensorFlow.js例子https://js.tensorflow.org/t">
-<meta name="twitter:image" content="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/e.png">
+<meta name="twitter:title" content="动态规划 leetcode 72题edit distance">
+<meta name="twitter:description" content="一直分不清楚动态规划和贪心，今天好好啃一啃 贪心：Ai –&amp;gt; Ai+1 动归：A0,A1,A2….Ai –&amp;gt;Ai+1 判断问题的子结构，具有最优子结构时，动归适用 嘤 贪心的复杂度明显低于动归 在最长子序列中（不一定连续），贪心思路 最开始，缓冲区里为空； 看到了字符“1”，添加到缓冲区的最后，即缓冲区中是“1”； 看到了字符“4”，“4”比缓冲区的所有字符都大，因此将“4”添加到缓冲">
 
 
 
@@ -132,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/12/动态规划-leetcode-72题edit-distance/"/>
 
 
 
 
 
-  <title>TensorFlow 基础 | 木木的小屋</title>
+  <title>动态规划 leetcode 72题edit distance | 木木的小屋</title>
   
 
 
@@ -275,7 +265,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/30/TensorFlow-张量，变量/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/12/动态规划-leetcode-72题edit-distance/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="杜文丽">
@@ -292,7 +282,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">TensorFlow 基础</h1>
+          <h1 class="post-title" itemprop="name headline">动态规划 leetcode 72题edit distance</h1>
         
 
         <div class="post-meta">
@@ -304,8 +294,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-30T15:11:17+08:00">
-                2018-08-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-12T17:33:28+08:00">
+                2018-09-12
               </time>
             
 
@@ -324,8 +314,8 @@
                 <i class="fa fa-comment-o"></i>
               </span>
               
-                <a href="/2018/08/30/TensorFlow-张量，变量/#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/08/30/TensorFlow-张量，变量/" itemprop="commentsCount"></span>
+                <a href="/2018/09/12/动态规划-leetcode-72题edit-distance/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/09/12/动态规划-leetcode-72题edit-distance/" itemprop="commentsCount"></span>
                 </a>
               
             
@@ -333,7 +323,7 @@
 
           
           
-             <span id="/2018/08/30/TensorFlow-张量，变量/" class="leancloud_visitors" data-flag-title="TensorFlow 基础">
+             <span id="/2018/09/12/动态规划-leetcode-72题edit-distance/" class="leancloud_visitors" data-flag-title="动态规划 leetcode 72题edit distance">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -363,7 +353,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,008 字
+                  775 字
                 </span>
               
 
@@ -379,7 +369,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4 分钟
+                  3 分钟
                 </span>
               
             </div>
@@ -400,83 +390,32 @@
       
 
       
-        <p><strong><em>参考资料：</em></strong></p>
-<p>原博客链接：<a href="https://www.jianshu.com/p/d9ab35b56ab8" target="_blank" rel="noopener">https://www.jianshu.com/p/d9ab35b56ab8</a></p>
-<p>TensorFlow.js官网api <a href="https://js.tensorflow.org/api" target="_blank" rel="noopener">https://js.tensorflow.org/api</a></p>
-<p>python的参考文档：<a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank" rel="noopener">https://www.tensorflow.org/api_docs/python/tf</a></p>
-<p>TensorFlow.js例子<a href="https://js.tensorflow.org/tutorials/fit-curve.html" target="_blank" rel="noopener">https://js.tensorflow.org/tutorials/fit-curve.html</a></p>
-<p>TensorFlow各种激活函数：<a href="https://www.tensorflow.org/api_guides/python/nn" target="_blank" rel="noopener">https://www.tensorflow.org/api_guides/python/nn</a></p>
-<p>TensorFlow的游乐场 <a href="http://playground.tensorflow.org" target="_blank" rel="noopener">http://playground.tensorflow.org</a></p>
-<p>python绘图matplotlib  <a href="https://matplotlib.org" target="_blank" rel="noopener">https://matplotlib.org</a></p>
-<p><strong><em>TensorFlow程序的流程</em></strong></p>
-<p>1.定义算法的<strong>计算图（graph）</strong>结构</p>
-<p>2.使用<strong>会话（session）</strong>执行计算</p>
-<p>TensorFlow中图：节点（operation），边：Tensor</p>
-<p>会话：（session）运行静态图的某一个部分，启动图的一部分</p>
-<p><img src="e.png" alt=""></p>
-<p><strong><em>基础知识：</em></strong></p>
-<p>每个TF都有一个默认的图</p>
-<p>张量：值不可变tf.tensor</p>
-<p>0阶张量为标量</p>
-<p>1阶张量为向量</p>
-<p>2阶张量为矩阵</p>
-<p>3阶张量为体积（暂且这样说吧）</p>
-<p><img src="a.png" alt=""></p>
-<p>变量 ：tf.Variable  用一个张量值来初始化的，可用assign方法给一个存在的变量分配一个新张量，值可变。用于模型训练时候，数据的保存和更新.变量通常贯穿于机器学习模型的整个生命周期中，在 TensorFlow.js 中，即使是在 tf.tidy 里创建，js也不会清理它们；但是，你可以手动调用 dispose。</p>
-<p>有了变量必须还要使用tf.initialize_all_variables()来初始化变量。</p>
-<p><img src="b.png" alt=""></p>
-<p>操作：operations(ops) 操作张量，返回新张量，原张量值不变</p>
-<p>有square，add，sub等，支持嵌套操作</p>
-<p><code>tf.tidy</code> 执行后就会清除所有中间新建的 tensors 来达到释放 GPU 内存，但不会消除内部的返回值。</p>
-<p>模型和层：一个函数及一个模型，给定相应输入得到期望输出</p>
-<p>tf.mode是一个模型，可以是线性模型，有了模型以后就可以往里面添加层</p>
-<p>tf.sequential 一层的输入是下一层的输出，拓扑排序是线性的栈</p>
-<p><img src="c.png" alt=""></p>
-<p>tf.layers.dense 全连接层，添加一个层，即初学的add_layer()函数</p>
-<p>dense(<br>    inputs,<br>    units,<br>    activation=None,<br>    use_bias=True,<br>    kernel_initializer=None,<br>    bias_initializer=tf.zeros_initializer(),<br>    kernel_regularizer=None,<br>    bias_regularizer=None,<br>    activity_regularizer=None,<br>    trainable=True,<br>    name=None,<br>    reuse=None<br>)</p>
-<p>inputs: 输入数据，2维tensor. </p>
-<p>units: 该层的神经单元结点数。</p>
-<p>inputshape：[1,2,3]的shape是(3,);一个二阶的张量[[1,2,3],[4,5,6]]的shape是(2,3);一个三阶的张量[[[1],[2],[3]],[[4],[5],[6]]]的shape是(2,3,1)  </p>
-<p>activation: 激活函数.</p>
-<p>use_bias: Boolean型，是否使用偏置项.  </p>
-<p>kernel_initializer: 卷积核的初始化器. </p>
-<p>bias_initializer: 偏置项的初始化器，默认初始化为0. </p>
-<p>kernel_regularizer: 卷积核化的正则化，可选. </p>
-<p>bias_regularizer: 偏置项的正则化，可选.  </p>
-<p>activity_regularizer: 输出的正则化函数.  </p>
-<p>trainable: Boolean型，表明该层的参数是否参与训练。如果为真则变量加入到图集合中 GraphKeys.TRAINABLE_VARIABLES (see tf.Variable).  </p>
-<p>name: 层的名字. </p>
-<p>reuse: Boolean型, 是否重复使用参数.</p>
-<p>tf.Session相当于一个指针，指针指着什么，就能查看什么或者使哪一个运行起来。</p>
-<p>tf.placeholder 占位符，输入变量暂存的地方。</p>
-<p>tf.feed_dict 字典填充函数，使输入输出变得简单</p>
-<p><img src="d.png" alt=""></p>
-<p>cross_entropy 交叉熵，用来衡量人工神经网络ANN的预测值与实际值的一种方式。</p>
-<p>交叉熵代价函数：<img src="e.jpg" alt=""></p>
-<p><img src="f.jpg" alt=""></p>
-<p><img src="g.jpg" alt=""></p>
-<p>好吧没看懂，总之训练效果比二次代价函数要好。完毕！</p>
-<p>as for training model, we need to do three things first</p>
-<ul>
-<li><p>A <em>loss function</em>, which measures how well a given polynomial fits the data. The lower the loss value, the better the polynomial fits the data.</p>
-</li>
-<li><p>An <em>optimizer</em>, which implements an algorithm for revising our coefficient values based on the output of the loss function. The optimizer’s goal is to minimize the output value of the loss function.</p>
-</li>
-<li><p>A <em>training loop</em>, which will iteratively run the optimizer to minimize loss.</p>
-</li>
-</ul>
-<p>  minimize最神奇的地方，自动调整参数诶，哇哦</p>
-<p><img src="C:\Users\18749\AppData\Local\Temp\1535707394705.png" alt="1535707394705"></p>
-<p>TensorBoard读取并展示日志</p>
-<p>tensorboard –logdir = 日志所在路径</p>
-<p>搭建神经网络：</p>
-<p>1.构建数据</p>
-<p>2.构建模型</p>
-<p>3.构建loss函数</p>
-<p>4.构建优化器opt 一般用tf.train.GradientDescentOptimizer(learn rate)</p>
-<p>5.train = opt.minimize(loss)</p>
-<p>6.构建会话sess=tf.Session() 并初始化变量</p>
-<p>7.每一次训练都需要减小化loss    sess.run(opt.minimize(loss))  此处的minimize很神奇，自动去调节权重和偏差。</p>
+        <p>一直分不清楚动态规划和贪心，今天好好啃一啃</p>
+<p>贪心：Ai –&gt; Ai+1</p>
+<p>动归：A0,A1,A2….Ai –&gt;Ai+1 判断问题的子结构，具有最优子结构时，动归适用</p>
+<p>嘤 贪心的复杂度明显低于动归</p>
+<p>在最长子序列中（不一定连续），贪心思路</p>
+<p>最开始，缓冲区里为空；</p>
+<p>看到了字符“1”，添加到缓冲区的最后，即缓冲区中是“1”；</p>
+<p>看到了字符“4”，“4”比缓冲区的所有字符都大，因此将“4”添加到缓冲区的最后，得到“14”；</p>
+<p>看到了字符“6”，“6”比缓冲区的所有字符都大，因此将“6”添加到缓冲区的最后，得到“146”；</p>
+<p>看到了字符“2”，“2”比“1”大，比“4”小，因此将“4”直接替换成“2”，得到“126”；</p>
+<p>看到了字符“8”，“8”比缓冲区的所有字符都大，因此将“8”添加到缓冲区的最后，得到“1268”；</p>
+<p>看到了字符“9”，“9”比缓冲区的所有字符都大，因此将“9”添加到缓冲区的最后，得到“12689”；</p>
+<p>看到了字符“7”，“7”比“6”大，比“8”小，因此将“8”直接替换成“7”，得到“12679”；</p>
+<p>现在，缓冲区的字符数目为5，因此，数组A的LIS的长度就是5！</p>
+<p>这样，时间复杂度变为每次都在一个递增的序列中替换或插入一个新的元素，所以为O(nlogn)。、</p>
+<p>提问！但这种做法只能得到长度，并不能得到子序列本身 </p>
+<p>但是为什么是对的呢？在一个大佬的帮助下 理解了 大佬的解释是：相等的上升子序列，最后一个元素越小，越有利于之后使上升子序列的长度增加。 精辟！ 而且反正替换的也是比这个数大的最小的数，如果下一个数比这个数大，也只会替换后面的数字 前面的也没什么影响</p>
+<p>动归思路：从第一位开始到最后一位，依次计算所有递增序列的长度，保存，最后来做比较</p>
+<p>总之就是要 <strong>降低问题的规模</strong>！！！</p>
+<p>问题重述：Given two words <em>word1</em> and <em>word2</em>, find the minimum number of steps required to convert <em>word1</em> to <em>word2</em>. (each operation is counted as 1 step.)</p>
+<p>You have the following 3 operations permitted on a word:</p>
+<p>a) Insert a character<br>b) Delete a character<br>c) Replace a character</p>
+<p>思路：</p>
+<p>打表存储 和DNA测序一样的思路</p>
+<p>贴代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">class Solution35 &#123;</span><br><span class="line">public:</span><br><span class="line">    int minDistance(string word1, string word2) &#123;</span><br><span class="line">        int len1=word1.length();</span><br><span class="line">        int len2=word2.length();</span><br><span class="line">        int dis[len1+1][len2+1];</span><br><span class="line">        //初始化数据</span><br><span class="line">        for (int k = 0; k &lt;len1+1 ; ++k) &#123;</span><br><span class="line">            for (int i = 0; i &lt;len2+1 ; ++i) &#123;</span><br><span class="line">                dis[k][i]=INT;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        for (int i = 0; i &lt;len1+1 ; ++i) &#123;</span><br><span class="line">            dis[i][0]=i;</span><br><span class="line">        &#125;</span><br><span class="line">        for (int j = 0; j &lt;len2+1 ; ++j) &#123;</span><br><span class="line">            dis[0][j]=j;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        //进行运算</span><br><span class="line">        for (int l = 1; l &lt;len1+1 ; ++l) &#123;</span><br><span class="line">            for (int i = 1; i &lt;len2+1 ; ++i) &#123;</span><br><span class="line">                if(word1[l-1]==word2[i-1])&#123;</span><br><span class="line">                    dis[l][i]=dis[l-1][i-1];</span><br><span class="line">                &#125; else</span><br><span class="line">                    dis[l][i]=min(dis[l-1][i-1],min(dis[l-1][i],dis[l][i-1]))+1;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return dis[len1][len2];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -494,7 +433,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/TensorFlow/" rel="tag"># TensorFlow</a>
+            <a href="/tags/leetcode/" rel="tag"># leetcode</a>
           
         </div>
       
@@ -507,8 +446,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/08/26/matlab-常用函数使用及示例/" rel="next" title="matlab 常用函数使用及示例">
-                <i class="fa fa-chevron-left"></i> matlab 常用函数使用及示例
+              <a href="/2018/09/05/TCP-IP/" rel="next" title="TCP/IP">
+                <i class="fa fa-chevron-left"></i> TCP/IP
               </a>
             
           </div>
@@ -516,10 +455,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/30/TensorFlow解决overfitting/" rel="prev" title="TensorFlow解决overfitting">
-                TensorFlow解决overfitting <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
