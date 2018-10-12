@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-27T17:12:44.702Z</updated>
+  <updated>2018-10-12T02:31:00.245Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>reading notes of How To Read A Paper</title>
+    <link href="http://yoursite.com/2018/10/12/reading-notes-of-How-To-Read-A-Paper/"/>
+    <id>http://yoursite.com/2018/10/12/reading-notes-of-How-To-Read-A-Paper/</id>
+    <published>2018-10-12T01:59:28.000Z</published>
+    <updated>2018-10-12T02:31:00.245Z</updated>
+    
+    <content type="html"><![CDATA[<p>THREE-PASS</p><p>I.<em>first pass</em>: gives you a general idea about the paper.</p><ol><li>Carefully read the title, abstract, and introduction</li><li>Read the section and sub-section headings, but ignore everything else</li><li>Glance at the mathematical content (if any) to determine the underlying theoretical foundations</li><li>Read the conclusions</li><li><p>Glance over the references, mentally ticking oﬀ the ones you’ve already read</p><p><em>five Cs:</em></p></li><li><p>Category: What type of paper is this? A measurement paper? An analysis of an existing system? A description of a research prototype?</p></li><li>Context: Which other papers is it related to? Which theoretical bases were used to analyze the problem?</li><li>Correctness: Do the assumptions appear to be valid?</li><li>Contributions: What are the paper’s main contributions?</li><li>Clarity: Is the paper well written?</li></ol><p>II.<em>second pass</em> :  grasp the paper’s content,but not its details.</p><p> read the paper with greater care, but ignore details such as proofs,“note down terms you didn’t understand, or questions you may want to ask the author.” An hour.</p><ol><li>Look carefully at the ﬁgures, diagrams and other illustrations in the paper. Pay special attention to graphs. Are the axes properly labeled? Are results shown with error bars, so that conclusions are statistically signiﬁcant? Common mistakes like these will separate rushed, shoddy work from the truly excellent.</li><li>Remember to mark relevant unread references for further reading (this is a good way to learn more about the background of the paper).</li><li>don’t fully understand?  (a) set the paper aside, hoping you don’t need to understand the material to be successful in your career, (b) return to the paper later, perhaps after reading background material or (c) persevere and go on to the third pass. </li></ol><p>III.<em>third pass</em>:  understand the paper in depth.</p><p> virtually re-implement </p><p>What papers should you read? </p><p>1.use an academic search engine such as Google Scholar or CiteSeer and some well-chosen keywords to ﬁnd three to ﬁve recent highly-cited papers in the area.</p><p>2.ﬁnd shared citations and repeated author names in the bibliography.Download the key papers and set them aside. Then go to the websites of the key researchers and see where they’ve published recently. </p><p>3.go to the website for these top conferences and look through their recent proceedings. </p><p>RELATED WORK </p><p>If you are reading a paper to do a review, you should also read Timothy Roscoe’s paper on “Writing reviews for systems conferences” . </p><p>If you’re planning to write a technical paper, you should refer both to Henning Schulzrinne’s comprehensive web site and George Whitesides’s excellent overview of the process. </p><p>Finally, Simon Peyton Jones has a website that covers the entire spectrum of research skills. </p><p>OTHER REFERENCE</p><p><a href="http://www.cs.columbia.edu/∼hgs/etc/writing-style.html" target="_blank" rel="noopener">http://www.cs.columbia.edu/∼hgs/etc/writing-style.html</a></p><p><a href="http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf" target="_blank" rel="noopener">http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf</a></p><p><a href="http://www.ee.ucr.edu/∼rlake/Whitesides" target="_blank" rel="noopener">http://www.ee.ucr.edu/∼rlake/Whitesides</a> writing res paper.pdf</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;THREE-PASS&lt;/p&gt;
+&lt;p&gt;I.&lt;em&gt;first pass&lt;/em&gt;: gives you a general idea about the paper.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Carefully read the title, abstract, and i
+      
+    
+    </summary>
+    
+    
+      <category term="paper" scheme="http://yoursite.com/tags/paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cs float representation</title>
+    <link href="http://yoursite.com/2018/10/08/cs-float-representation/"/>
+    <id>http://yoursite.com/2018/10/08/cs-float-representation/</id>
+    <published>2018-10-08T02:23:02.000Z</published>
+    <updated>2018-10-08T02:47:22.668Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="C:\Users\18749\AppData\Local\Temp\1538965471498.png" alt="1538965471498"></p><p><img src="a.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;C:\Users\18749\AppData\Local\Temp\1538965471498.png&quot; alt=&quot;1538965471498&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;a.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="computer system" scheme="http://yoursite.com/tags/computer-system/"/>
+    
+  </entry>
   
   <entry>
     <title>木木的日常9.28</title>
