@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-27T11:22:57.980Z</updated>
+  <updated>2018-10-23T03:58:07.266Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>python numpy matplotlib</title>
-    <link href="http://yoursite.com/2018/10/27/python-numpy-matplotlib/"/>
-    <id>http://yoursite.com/2018/10/27/python-numpy-matplotlib/</id>
-    <published>2018-10-27T11:22:57.000Z</published>
-    <updated>2018-10-27T11:22:57.980Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>309. Best Time to Buy and Sell Stock with Cooldown</title>
