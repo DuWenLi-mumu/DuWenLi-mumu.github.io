@@ -113,7 +113,7 @@
 <meta property="og:image" content="d:/workspace/hexo/source/_posts/2018-11-29-daily-temperatures/1.png">
 <meta property="og:image" content="d:/workspace/hexo/source/_posts/2018-11-29-daily-temperatures/2.png">
 <meta property="og:image" content="d:/workspace/hexo/source/_posts/2018-11-29-daily-temperatures/3.png">
-<meta property="og:updated_time" content="2018-11-29T01:46:35.473Z">
+<meta property="og:updated_time" content="2018-11-29T02:33:32.206Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="daily-temperatures">
 <meta name="twitter:description" content="题目：Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for wh">
@@ -367,7 +367,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  622 字
+                  729 字
                 </span>
               
 
@@ -383,7 +383,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3 分钟
+                  4 分钟
                 </span>
               
             </div>
@@ -428,6 +428,7 @@
 <p>7)76来， 弹出72，75，说明比72,75大的均为76，[ (76,6) ]</p>
 <p>8)73来，压入，栈不空，说明栈里面的元素没有下一个比他们大的，呜呜呜，好聪明的做法呀！</p>
 <p>好吧 ，栈，你赢了。复杂度几乎是O（n），抱头痛哭。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; dailyTemperatures(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; T) &#123;</span><br><span class="line">        <span class="keyword">int</span> len=T.size();</span><br><span class="line">        <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; wait(len,<span class="number">0</span>);</span><br><span class="line">        <span class="built_in">stack</span>&lt;<span class="keyword">int</span>&gt; s;</span><br><span class="line">        <span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(i&lt;len)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s.empty())&#123;</span><br><span class="line">                s.push(i);</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(T[i]&gt;T[s.top()])&#123;</span><br><span class="line">            <span class="keyword">while</span>(!s.empty()&amp;&amp;T[i]&gt;T[s.top()])&#123;</span><br><span class="line">                wait[s.top()]=i-s.top();</span><br><span class="line">                s.pop(); </span><br><span class="line">            &#125;</span><br><span class="line">                s.push(i);</span><br><span class="line">                i++;</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                s.push(i);</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(!s.empty())&#123;</span><br><span class="line">            wait[s.top()]=<span class="number">0</span>;</span><br><span class="line">            s.pop();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> wait;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -714,7 +715,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">26.1k</span>
+    <span title="Site words total count">26.2k</span>
   
 </div>
 
